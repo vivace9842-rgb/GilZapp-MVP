@@ -15,7 +15,7 @@ export class User {
   name: string;
 
   @Column({ nullable: true })
-  phone?: string;
+  phone: string;
 
   @Column({ type: 'boolean', default: true })
   isActive: boolean;
